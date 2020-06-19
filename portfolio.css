@@ -4,27 +4,31 @@
     font-family: Arial, Helvetica, sans-serif;
 /* outline: 3px solid red; */
 }
-div.container{
+.container{
     height: 780px;
     width:911px;
     background-color: grey;
     /* margin: 0px auto; */
     padding: 20px;  
 }
-div.header{
+.header{
     height:50px;
     width:922px;
     background-color: #F7F4F7;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 14px;
-    
+    padding: 14px;   
 }
-img{
+.header h1{
+    font-family: cursive;
+}
+.topcontent img{
     /* max-width: 100%; */
     height: auto;
     width: 400px;
+    outline-style: solid; color: whitesmoke;
+    
 }
 .topcontent{
     width: 900px;
@@ -34,6 +38,7 @@ img{
 }
 p{
     padding-left: 4%;
+    font-size: small;
 }
 
 .label{
@@ -41,12 +46,17 @@ p{
     width: auto;
     background-color: silver;
     padding-left: 4%;
+    color: white;
+    font-weight: bold;
 }
 .paneltop{
     min-height: 250px;
     width: 100%;
     background-color: #F7F4F7;
     margin-left: 25px;
+}
+.paneltop a{
+    color: black;
 }
 .subcontent{
     height: 320px;
@@ -73,35 +83,35 @@ p{
     /* height:200px; */
     background-color: #F7F4F7;
 }
-.panelbottom img{
-    height: 153px;
-    width: auto;
-    display: inline-flex;
-}
-.icongroup img{
-    height: 45px;
-    width: auto;
-    margin-top: 10px;
-    text-align: left;
-    margin-left: 15px;
+    .panelbottom img{
+        height: 153px;
+        width: auto;
+        display: inline-flex;
+    }
+        .icongroup img{
+            height: 45px;
+            width: auto;
+            margin-top: 10px;
+            text-align: left;
+            margin-left: 15px;
 }
 
 .navlinkcontainer{
     /* background-color: red; */
     margin: 0px 76px;
 }
-.navlinkbox {
-    height: 26px;
-    width: 119px;
-    background-color: green;
-    text-align: center;
-    border-radius: 10px;
-    border: solid;
-}
-.navlinkbox a{
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
+    .navlinkbox {
+        height: 26px;
+        width: 119px;
+        background-color: green;
+        text-align: center;
+        border-radius: 10px;
+        border: solid;
+    }
+        .navlinkbox a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
 
 }
 .footer{
@@ -122,6 +132,10 @@ li{
 }
 a[href*="twitter.com/"] {
     background:url(https://twitter.com/favicon.ico) no-repeat left center;
+    padding-left:19px;
+}
+a[href*="linkedin.com/"] {
+    background:url(https://www.linkedin.com/favicon.ico) no-repeat left center;
     padding-left:19px;
 }
 a[href*="facebook.com/"] {
